@@ -1,0 +1,60 @@
+#calculator {
+    aspect-ratio: 1/1.3;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#calculatorHead {
+    flex: 1;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+#output {
+    margin: 10px;
+    background-color: gray;
+    flex: 1;
+}
+#output {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+#calculatorBody {
+    flex: 4;
+    display: flex;
+    background-color: black;
+}
+#numbers {
+    display: flex;
+    flex:5;
+}
+
+#operations {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#numbers div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+#numbers div button,
+#operations button 
+{
+    flex: 1;
+    margin: 5px;
+    border-style: none;
+    background-color: orange;
+    color: black;
+    font-size: 100%;
+
+}
